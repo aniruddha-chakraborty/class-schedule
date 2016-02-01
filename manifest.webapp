@@ -1,0 +1,17 @@
+{
+  "version": "0.10",
+  "name": "Book Search Engine",
+  "description": "A Book search Engine that helps people to search book from every library in country",
+  "launch_path": "/index.html",
+  "icons": {
+    "16 x 16": "/images/fx_icons/dictionary.png",
+    "256 x 256": "images/fx_icons/dictionary-256x.png",
+    "128 x 128": "images/fx_icons/dictionary-128x.png"
+  },
+  "developer": {
+    "name": "Aniruddha Chakraborty",
+    "url": "http://anichakraborty.me/"
+  },
+  "default_locale": "en-US",
+  "locales": {}
+}
