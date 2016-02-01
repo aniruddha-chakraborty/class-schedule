@@ -35,6 +35,7 @@ if (getDay < 5) {
   var classSir   = routine[getDay][0][1];
   var classRoom  = routine[getDay][0][2];
 
+  console.log(className);
 
   document.getElementById('first_class').innerHTML = classSir;
   document.getElementById('second_class').innerHTML = className;
