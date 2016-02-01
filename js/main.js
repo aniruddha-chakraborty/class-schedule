@@ -1,7 +1,7 @@
 var date = new Date();
 var getDay = date.getDay();
 
-if (6 < 5) {
+if (getDay < 5) {
 
   var routine = [
         [
