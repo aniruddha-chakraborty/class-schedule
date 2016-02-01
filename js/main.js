@@ -31,23 +31,15 @@ if (getDay < 5) {
         ]
   ];
 
-  var className  = routine[getDay][0][0];
-  var classSir   = routine[getDay][0][1];
-  var classRoom  = routine[getDay][0][2];
- // console.log(className);
   var today = routine[getDay];
   var output     = '';
 
     for ( i = 0; i < today.length; i++ ) {
     
         output += "<div class=\"portfolioOneItemWrapper\"><div class=\"portfolioOneItemInfoWrapper\"> <h4 class=\"portfolioOneItemTitle\" id=\"first_class\"> Subject: "+ today[i][0] +"</h4> <p id=\"first_class_p\"> Teacher Name : "+ today[i][1] + " <br> " +today[i][2] + "</p></div></div>";
-         // console.log();
         }
 
-//  console.log(output);
-
   document.getElementById('allStuff').innerHTML = output;
-
 
 } else {
 
