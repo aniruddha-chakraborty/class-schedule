@@ -1,7 +1,7 @@
 var date = new Date();
 var getDay = date.getDay();
 
-if (getDay < 5) {
+if (6 < 5) {
 
   var routine = [
         [
@@ -34,11 +34,22 @@ if (getDay < 5) {
   var className  = routine[getDay][0][0];
   var classSir   = routine[getDay][0][1];
   var classRoom  = routine[getDay][0][2];
+ // console.log(className);
+  var today = routine[getDay];
+  var output     = '';
 
-  console.log(className);
+    for ( i = 0; i < today.length; i++ ) {
+    
+        output += "<div class=\"portfolioOneItemWrapper\"><div class=\"portfolioOneItemInfoWrapper\"> <h4 class=\"portfolioOneItemTitle\" id=\"first_class\"> Subject: "+ today[i][0] +"</h4> <p id=\"first_class_p\"> Teacher Name : "+ today[i][1] + " <br> " +today[i][2] + "</p></div></div>";
+         // console.log();
+        }
 
-  document.getElementById('first_class').innerHTML = classSir;
-  document.getElementById('second_class').innerHTML = className;
-  document.getElementById('third_class').innerHTML = classRoom;
+//  console.log(output);
 
+  document.getElementById('allStuff').innerHTML = output;
+
+
+} else {
+
+     document.getElementById('allStuff').innerHTML = '<center><h1>Sorry Today is You Holiday!!</h1></center>';
 }
