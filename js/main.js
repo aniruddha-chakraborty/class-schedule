@@ -27,7 +27,7 @@ var data = {
               [
                 ['EEE 101 (8:30 - 9:30)','MMF sir','Room Number 404'],
                 ['CSE 111 (9:35 - 10:35)','MMRF sir','Room Number 404'],
-                ['MAT 111 (10:40 - 10:40)','MKI sir','Room Number 404']
+                ['MAT 111 (10:40 - 11:40)','MKI sir','Room Number 404']
               ],
               [
                 ['ENG 111 (11:45 - 12:45)','AAA','Room Number 318'],
