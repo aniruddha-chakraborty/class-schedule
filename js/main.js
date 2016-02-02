@@ -57,7 +57,7 @@ var data = {
 
 var newRoutine = Object.create(data);
 
-if (getHours > 19) {
+if (getHours < 19) {
     newRoutine.routine(getDay);
 } else {
     newRoutine.routine(++getDay);
