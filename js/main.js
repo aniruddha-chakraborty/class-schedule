@@ -6,7 +6,7 @@ var data = {
 
     routine: function (getDay) {
 
-      if (getDay < 5) {
+      if ( (getDay < 5) || (getDay == 6) ) {
 
         var routine = [
               [
@@ -15,9 +15,9 @@ var data = {
                 ['EEE 102 (11:45 - 12:45 )','MMF sir','Room Number 404']
               ],
               [
-                ['CSE 102 (11:45 - 12:45) ','MMRF sir','Room Number 408'],
-                ['CSE 102 (1:15 - 2:15 )','MMRF sir','Room Number 408'],
-                ['CSE 102 (2:20 - 2:20 )','MMRF sir','Room Number 408']
+                ['CSE 102 (11:45 - 12:45) ','MMRF sir','Room Number 418'],
+                ['CSE 102 (1:15 - 2:15 )','MMRF sir','Room Number 418'],
+                ['CSE 102 (2:20 - 2:20 )','MMRF sir','Room Number 418']
               ],
               [
                 ['ENG 111 (1:15 - 2:15 )','AAA','Room Number 318'],
@@ -33,7 +33,16 @@ var data = {
                 ['ENG 111 (11:45 - 12:45)','AAA','Room Number 318'],
                 ['CSE 111 (1:15 - 2:15 )','MMRF sir','Room Number 318'],
                 ['EEE 101 (2:20 - 2:20 )','MMF sir','Room Number 318']
+              ],
+              [
+
+              ],
+              [
+                ['ENG 111 (1:15----2:15 )','AAA sir','Room Number R-318'],
+                ['MAT 111 (2:20-----3:20 )','MMF sir','Room Number R-318'],
+                ['EEE 101 (3:25---4:25)','MMF sir','Room Number R-318']
               ]
+
         ];
 
         var today = routine[getDay];
